@@ -9,25 +9,31 @@ session_start(); ?>
                     <div class="col-lg-7 top-social-agile">
                         <div class="row">
                             <!-- social icons -->
+                            <span>Social Link</span>
                             <ul class="col-lg-4 col-6 top-right-info text-center">
                                 <li>
-                                    <a href="#">
+                                    <a target= "blank" href="https://www.facebook.com/glauny">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li class="mx-3">
-                                    <a href="#">
+                                    <a target= "blank" href="//twitter.com/gla_mathura">
                                         <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i class="fab fa-google-plus-g"></i>
+                                    <a target="blank" href="https://www.instagram.com/glauniv/">
+                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="ml-3">
-                                    <a href="#">
-                                        <i class="fab fa-pinterest-p"></i>
+                                    <a target="blank" href="https://in.linkedin.com/school/gla-university">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="ml-3">
+                                    <a target="blank" href="https://www.youtube.com/channel/UCzv9lLHktV5HGuDHKvS_zyg">
+                                        <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                             </ul><?php 
@@ -53,12 +59,12 @@ foreach($results as $result)
                             <div class="col-lg-7 col-6 top-w3layouts">
                                 <p class="text-white">
                                     <i class="far fa-envelope-open mr-2"></i>
-                                    <a href="mailto:info@example.com" class="text-white"><?php  echo $result->EmailId; ?></a>
+                                    <a href="mailto:glauniversity@gla.ac.in" class="text-white"><?php  echo $result->EmailId; ?></a>
                                 </p>
                             </div>
                             <div class="col-lg-5 col-6 header-w3layouts pl-4 text-lg-left">
                                 <p class="text-white">
-                                    <i class="fas fa-phone mr-2"></i>+<?php  echo $result->ContactNo; ?></p>
+                                    <i class="fas fa-phone mr-2"></i>+91-<?php  echo $result->ContactNo; ?></p>
                             </div>
                         </div><?php } } ?>
                     </div>
