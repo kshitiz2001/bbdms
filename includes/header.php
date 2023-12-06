@@ -49,8 +49,11 @@ foreach($results as $result)
 { ?>
                             <!-- //social icons -->
                             <div class="col-6 header-top_w3layouts pl-3 text-lg-left text-center">
+                            <a target="blank" href="https://maps.app.goo.gl/fkw1cWzZH7ES51Xi6">
                                 <p class="text-white">
-                                    <i class="fas fa-map-marker-alt mr-2"></i><?php  echo $result->Address; ?></p>
+                                    <i class="fas fa-map-marker-alt mr-2"></i>
+                                    <?php  echo $result->Address; ?>
+                                </p>
                             </div>
                         </div>
                     </div>
