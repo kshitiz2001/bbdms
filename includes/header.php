@@ -9,7 +9,9 @@ session_start(); ?>
                     <div class="col-lg-7 top-social-agile">
                         <div class="row">
                             <!-- social icons -->
+                            <p class="text-white">
                             <span>Social Link</span>
+                            </p>
                             <ul class="col-lg-4 col-6 top-right-info text-center">
                                 <li>
                                     <a target= "blank" href="https://www.facebook.com/glauny">
@@ -47,13 +49,13 @@ if($query->rowCount() > 0)
 {
 foreach($results as $result)
 { ?>
-                            <!-- //social icons -->
                             <div class="col-6 header-top_w3layouts pl-3 text-lg-left text-center">
                             <a target="blank" href="https://maps.app.goo.gl/fkw1cWzZH7ES51Xi6">
                                 <p class="text-white">
                                     <i class="fas fa-map-marker-alt mr-2"></i>
                                     <?php  echo $result->Address; ?>
                                 </p>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -61,8 +63,9 @@ foreach($results as $result)
                         <div class="row">
                             <div class="col-lg-7 col-6 top-w3layouts">
                                 <p class="text-white">
+                                <a href="mailto:glauniversity@gla.ac.in" class="text-white">
                                     <i class="far fa-envelope-open mr-2"></i>
-                                    <a href="mailto:glauniversity@gla.ac.in" class="text-white"><?php  echo $result->EmailId; ?></a>
+                                    <?php  echo $result->EmailId; ?></a>
                                 </p>
                             </div>
                             <div class="col-lg-5 col-6 header-w3layouts pl-4 text-lg-left">
@@ -97,7 +100,7 @@ foreach($results as $result)
                     </button>
                     <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-lg-auto">
-                            <li class="nav-item active mt-lg-0 mt-3">
+                            <li class="nav-item mx-lg-4 my-lg-0 my-3">
                                 <a class="nav-link" href="index.php">Home
                                     <span class="sr-only">(current)</span>
                                 </a>

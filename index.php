@@ -49,10 +49,7 @@ include('includes/config.php');
 					<div class="banner-top1">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>Blood bank services that you
-									<span>can trust</span>
-								</h3>
-								
+								<h3><span>Blood Bank Services That You Can Trust</span></h3>
 							</div>
 						</div>
 					</div>
@@ -61,10 +58,7 @@ include('includes/config.php');
 					<div class="banner-top2">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3>One Blood Donation Save three Lives
-									<span>every day</span>
-								</h3>
-						
+								<h3><span>One Donation Save Three Lives EveryDay</span></h3>
 							</div>
 						</div>
 					</div>
