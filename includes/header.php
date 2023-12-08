@@ -9,9 +9,9 @@ session_start(); ?>
                     <div class="col-lg-7 top-social-agile">
                         <div class="row">
                             <!-- social icons -->
-                            <p class="text-white">
-                            <span>Social Link</span>
-                            </p>
+                            <a href="javascript:void(0);">
+                            <p class="text-white"><span>Social Link</span></p>
+                            </a>
                             <ul class="col-lg-4 col-6 top-right-info text-center">
                                 <li>
                                     <a target= "blank" href="https://www.facebook.com/glauny">
@@ -89,7 +89,7 @@ foreach($results as $result)
                     <!-- logo -->
                     <h1>
                         <a class="navbar-brand font-weight-bold font-italic" href="index.php">
-                            <span>BB</span>DMS
+                            <span>BB</span>MS
                             <i class="fas fa-syringe"></i>
                         </a>
                     </h1>
@@ -184,10 +184,10 @@ foreach($results as $result)
                                 <div class="form-group">
                                     <label class="mb-2">Gender</label>
                                     <select name="gender" class="form-control" required>
-<option value="">Select</option>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-</select>
+                                        <option value="">Select</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label class="mb-2">Blood Group</label>
