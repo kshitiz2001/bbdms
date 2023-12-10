@@ -151,17 +151,8 @@ foreach($results as $result)
 			</div>
 			<div class="row">
             <div class="col-lg-6" style="color:black">
-				<!-- <ol>
-					<li>A positive or A negative</li>
-					<li>B positive or B negative</li>
-					<li>O positive or O negative</li>
-					<li>AB positive or AB negative</li>
-				</ol>
-				<br>
-                <p style="color:black">A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p> -->
 				<p style="color:black">1. A positive or A negative<br>2. B positive or B negative<br>3. O positive or O negative<br>4. AB positive or AB negative<br><br>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
-			
-            </div>
+			</div>
             <div class="col-lg-6">
                 <img class="img-fluid rounded" src="images/12.jpg" alt="">
             </div>
