@@ -67,10 +67,7 @@ include('includes/config.php');
 					<div class="banner-top3">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-						<!-- 		<h3>"Sometimes money cannot save life
-									<span>but donated blood can</span>
-								</h3> -->
-				
+								<h3><span>Saving Lives, One Pint at a Time</span></h3>
 							</div>
 						</div>
 					</div>
@@ -150,39 +147,36 @@ foreach($results as $result)
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="mt-2">blood group of any human being will mainly fall in any one of the following groups..</p>
+				<p class="mt-2" style="color:red"><b>Blood group of any human being will mainly fall in any one of the following groups.</b></p>
 			</div>
 			<div class="row">
-            <div class="col-lg-6">
-               
-                <ul>
-                
-                
-<li>A positive or A negative</li>
-<li>B positive or B negative</li>
-<li>O positive or O negative</li>
-<li>AB positive or AB negative.</li>
-                </ul>
-                <p>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
+            <div class="col-lg-6" style="color:black">
+				<!-- <ol>
+					<li>A positive or A negative</li>
+					<li>B positive or B negative</li>
+					<li>O positive or O negative</li>
+					<li>AB positive or AB negative</li>
+				</ol>
+				<br>
+                <p style="color:black">A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p> -->
+				<p style="color:black">1. A positive or A negative<br>2. B positive or B negative<br>3. O positive or O negative<br>4. AB positive or AB negative<br><br>A healthy diet helps ensure a successful blood donation, and also makes you feel better! Check out the following recommended foods to eat prior to your donation.</p>
+			
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid rounded" src="images/blood-donor (1).jpg" alt="">
+                <img class="img-fluid rounded" src="images/12.jpg" alt="">
             </div>
         </div>
 
         <div class="row mb-4">
             <div class="col-md-8">
             <h4 style="padding-top: 30px;">UNIVERSAL DONORS AND RECIPIENTS</h4>
-                <p>
-The most common blood type is O, followed by type A.
-
-Type O individuals are often called "universal donors" since their blood can be transfused into persons with any blood type. Those with type AB blood are called "universal recipients" because they can receive blood of any type.</p>
-            </div>
-            <div class="col-md-4" style="padding-top: 30px;"> 
-    
-                <a class="btn btn-lg btn-secondary btn-block login-button ml-lg-5 mt-lg-0 mt-4 mb-lg-0 mb-3" data-toggle="modal" data-target="#exampleModalCenter1" href="#" data-toggle="modal" data-target="#exampleModalCenter1"> Become a Donar</a>
+                <p1>The most common blood type is O, followed by type A.Type O individuals are often called "universal donors" since their blood can be transfused into persons with any blood type. Those with type AB blood are called "universal recipients" because they can receive blood of any type.</p1>
             </div>
         </div>
+		</div>
+            <div class="col-md-4" style="padding-top: 30px;"> 
+			<a class="btn btn-lg btn-secondary btn-block login-button ml-lg-5 mt-lg-0 mt-4 mb-lg-0 mb-3" data-toggle="modal" data-target="#exampleModalCenter1" href="#" data-toggle="modal" data-target="#exampleModalCenter1"> Become a Donor</a>
+            </div>
 		</div>
 	</div>
 	<!-- //treatments -->

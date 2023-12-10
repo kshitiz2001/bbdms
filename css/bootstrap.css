@@ -602,6 +602,15 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.row1{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 .no-gutters {
   margin-right: 0;
@@ -7460,6 +7469,7 @@ button.bg-dark:focus {
 .mt-2,
 .my-2 {
   margin-top: 0.5rem !important;
+  text
 }
 
 .mr-2,
