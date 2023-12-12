@@ -71,7 +71,7 @@ include('includes/config.php');
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="mt-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p style="color: #000;" class="mt-2"><b>Your Blood Can Save Lives – "Donate Today"</b></p>
 			</div>
 			<div class="d-flex">
 				
