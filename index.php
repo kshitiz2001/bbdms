@@ -145,9 +145,14 @@ foreach($results as $result)
             </div>
         </div>
 		</div>
-            <div class="col-md-4" style="padding-top: 30px;"> 
-			<a class="btn btn-lg btn-secondary btn-block login-button ml-lg-5 mt-lg-0 mt-4 mb-lg-0 mb-3" data-toggle="modal" data-target="#exampleModalCenter1" href="#" data-toggle="modal" data-target="#exampleModalCenter1"> Become a Donor</a>
-            </div>
+		<div class="container h-100">
+			<div class="row align-items-center h-100">
+				<div class="col-6 mx-auto">  
+					<p class="text-center">
+						<a class="btn btn-lg btn-secondary btn-block login-button ml-lg-5 mt-lg-0 mt-4 mb-lg-0 mb-3" href="sign-up.php">Become a Donor</a>
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<?php include('includes/footer.php');?>

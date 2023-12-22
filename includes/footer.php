@@ -62,7 +62,7 @@ foreach($results as $result)
           </div>
         </div>
         <div class="border-top mt-5 pt-lg-4 pt-3 pb-lg-0 pb-3 text-center">
-          <p class="copy-right-grids mt-lg-1">©  Blood Bank Management System
+          <p class="copy-right-grids mt-lg-1">© 2023 Blood Bank Management System
            
           </p>
         </div>
