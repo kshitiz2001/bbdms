@@ -60,7 +60,6 @@ include('includes/config.php');
 						</div>
 					</div>
 				</li>
-				<li>
 			</ul>
 		</div>
 	</div>
