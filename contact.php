@@ -96,7 +96,7 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 				<span>
 					<i class="fas fa-user-md"></i>
 				</span>
-				<p class="mt-2">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="mt-2">Male donors can donate again after 90 days and female donors can donate again after 120 days.</p>
 			</div>
 			<div class="d-flex">
 				<div class="col-lg-5 w3_agileits-contact-left">
@@ -106,10 +106,10 @@ echo "<script>alert('Something went wrong. Please try again.');</script>";
 					<form action="#" method="post">
 						<div class="d-flex space-d-flex">
 							<div class="form-group grid-inputs">
-								 <input type="text" class="form-control" id="name" name="fullname" placeholder="Please enter your name.">
+								 <input type="text" class="form-control" id="name" name="fullname" placeholder="Please enter your name." required="">
 							</div>
 							<div class="form-group grid-inputs">
-								<input type="tel" class="form-control" id="phone" name="contactno"  placeholder="Please enter your phone number.">
+								<input type="tel" class="form-control" id="phone" name="contactno"  placeholder="Please enter your phone number." required="">
 							</div>
 						</div>
 						<div class="form-group">
