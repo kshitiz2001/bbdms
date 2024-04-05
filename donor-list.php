@@ -95,7 +95,7 @@ foreach($results as $result)
 					
 					<div class="price-top">
 					
-							<img src="images/blood-donor.jpg" alt="Blood Donot" style="border:1px #000 solid" class="img-fluid" />
+							<img src="images/blood-donor.jpg" alt="Blood Donor" style="border:1px #000 solid" class="img-fluid" />
 				
 						<h3><?php echo htmlentities($result->FullName);?>
 						</h3>
@@ -127,7 +127,7 @@ foreach($results as $result)
                <tr>
         <td>Age</td>
         <td><?php echo htmlentities($result->Age);?></td>
-      </tr>
+      </tr> 
 
         <tr>
         <td>Address</td>
