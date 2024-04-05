@@ -122,28 +122,28 @@ echo "<script>alert('Email-id already exist. Please try again');</script>";
                             <form action="#" method="post"  name="signup" onsubmit="return checkpass();">
                                 <div class="form-group">
                                     <label>Full Name</label>
-                                     <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Full Name">
+                                     <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Full Name" required="">
                                 </div>
                                 <div class="form-group">
                                     <label>Mobile Number</label>
-                                    <input type="text" class="form-control" name="mobileno" id="mobileno" required="true" placeholder="Mobile Number" maxlength="10" pattern="[0-9]+">
+                                    <input type="tel" class="form-control" name="mobileno" id="mobileno" required="true" placeholder="Mobile Number" maxlength="10" pattern="[0-9]+">
                                 </div>
                                 
                                 <div class="form-group">
                                     <label class="mb-2">Email Id</label>
-                                    <input type="email" name="emailid" class="form-control" placeholder="Email Id">
+                                    <input type="email" name="emailid" class="form-control" placeholder="Email Id" required="">
                                 </div>
                                 <div class="form-group">
                                     <label class="mb-2">Age</label>
-                                    <input type="text" class="form-control" name="age" id="age" placeholder="Age" required="">
+                                    <input type="number" class="form-control" name="age" id="age" placeholder="Age" required="">
                                 </div>
                                 <div class="form-group">
                                     <label class="mb-2">Gender</label>
                                     <select name="gender" class="form-control" required>
-<option value="">Select</option>
-<option value="Male">Male</option>
-<option value="Female">Female</option>
-</select>
+                                    	<option value="">Select</option>
+                                    	<option value="Male">Male</option>
+                                    	<option value="Female">Female</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label class="mb-2">Blood Group</label>

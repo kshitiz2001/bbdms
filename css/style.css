@@ -1907,7 +1907,7 @@ label.col-form-label {
 
 @media(max-width: 600px) {
     .col-md-4.pricing {
-        width: 90%;
+        width: 50%;
         margin: 0 auto;
     }
 
