@@ -137,7 +137,7 @@ foreach($results as $row)
 											</div>
 											<div class="hr-dashed"></div>
 											<div class="form-group">
-												<label class="col-sm-4 control-label">Email</label>
+												<label class="col-sm-4 control-label">Email ID</label>
 												<div class="col-sm-8">
 													<input type="email" name="email" value="<?php  echo $row->Email;?>" class="form-control" required='true'>
 												</div>
