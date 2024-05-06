@@ -89,7 +89,7 @@ foreach($results as $result)
                     <!-- logo -->
                     <h1>
                         <a class="navbar-brand font-weight-bold font-italic" href="index.php">
-                            <span>BBA</span>MS
+                            <span>BB</span>MS
                             <i class="fas fa-syringe"></i>
                         </a>
                     </h1>
