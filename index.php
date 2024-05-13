@@ -46,7 +46,7 @@ include('includes/config.php');
 					<div class="banner-top2">
 						<div class="banner-info_agile_w3ls">
 							<div class="container">
-								<h3><span>One Donation Save Threeeeeeeeeeeee Lives EveryDay</span></h3>
+								<h3><span>One Donation Save Three Lives EveryDay</span></h3>
 							</div>
 						</div>
 					</div>
